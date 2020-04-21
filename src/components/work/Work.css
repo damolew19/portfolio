@@ -1,0 +1,122 @@
+.workContainer {
+	position: relative;
+	background-color: #363636;
+	color: #e5e5e5;
+	overflow: hidden;
+}
+
+.projectContainer {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+
+.titleContainer .music  {
+	border-color: #62695E;
+	color: #62695E;
+}
+
+.projectLayout {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	margin: 6em 0;
+}
+
+.projectThumbnail {
+	max-width: 600px;
+	margin: 1em auto;
+}
+
+.projectThumbnail img {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 20px 5px #111;
+}
+
+.projectInfo {
+	position: relative;
+	text-align: center;
+	padding: 2em 0;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.projectInfo h3 {
+	font-size: 2.5em;
+	font-weight: 400;
+}
+
+.projectInfo h5 {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.projectInfo p {
+	margin: 2em 0;
+}
+
+
+.projectInfo button {
+	outline: none;
+	color: inherit;
+	border-style: none;
+	border-radius: 10%;
+	background-color: #262626;
+	padding: 10px 50px;
+	font-size: 1em;
+}
+
+.projectInfo a {
+	color: inherit;
+	text-decoration: none;
+	
+}
+
+.projectInfo button:hover {
+	opacity: 0.5;
+}
+
+.tan {
+	background-color: #141A1B;
+	color: #fff;
+}
+
+.frenchBlue {
+	background-color: #3a4660;
+}
+
+.peachyKreme {
+	color: #ed8a63
+}
+
+.brownBonnet {
+	background-color: #845007
+} 
+
+@media only screen and (min-width: 1024px) {
+	.projectLayout {
+	position: relative;
+	margin: -4em 0 2em 0;
+	}
+
+	.projectInfo h3 {
+	font-size: 3em;
+	}
+
+	.projectInfo h5 {
+		font-size: 1em;
+	}
+
+	.projectInfo p {
+		margin: 2em 0;
+	}
+
+	.projectInfo button {
+	outline: none;
+	margin: 0em 0;
+	}
+}

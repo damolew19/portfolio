@@ -1,0 +1,82 @@
+@keyframes anim {
+	from {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+}
+
+.titleContainer {
+	position: relative;
+	width: 100%;
+	border-top-style: solid;  
+	border-bottom-style: solid; 
+	transform: rotate(-45deg);
+	transform-origin: top left; 
+	text-align: center;
+	margin: 1em 0;
+	top: 43vw;
+	right: 20vw;
+}
+
+
+.titleContainer h2 {
+	font-size: 1.5em;
+	font-weight: 100;
+	letter-spacing: 0.5em;	
+}
+
+
+/*@media only screen and (min-width: 600px) {
+	.titleContainer {
+		position: relative;
+		width: 110vh;
+		top: -20vh;
+		transform: rotate(90deg);
+		transform-origin: bottom left;
+		margin: 0 1em;
+		top: -20vh;
+		right: 0vw;
+	}
+
+	.titleContainer h2 {
+		font-size: 15vh;
+		font-weight: 100;
+		letter-spacing: 0.5em;	
+	}
+
+}*/
+
+@media only screen and (min-width: 1025px) {
+	.titleContainer {
+		position: relative;
+		width: 110vh;
+		top: -20vh;
+		transform: rotate(90deg);
+		transform-origin: bottom left;
+		margin: 0 1em;
+		top: -20vh;
+		right: 0vw;
+	}
+
+	.titleContainer h2 {
+		font-size: 15vh;
+		font-weight: 100;
+		letter-spacing: 0.5em;	
+	}
+
+}
+

@@ -1,0 +1,124 @@
+.aboutContainer {
+	position: relative;
+	background: radial-gradient(ellipse at top, #222 0%, #171B22 100%);
+	color: #fff;
+	overflow: hidden;
+}
+
+.aboutContainer .titleContainer {
+	 color: #3a4660; 
+	 text-shadow: 0px 2px 30px #3a466098;
+	 border-color: #3a4660;
+}
+
+.portraitContainer {
+	width: 40%;
+	right: 0;
+	top: 5%;
+	position: absolute;
+	display: none;
+}
+
+.portrait {
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 400px;
+	height: 500px;
+}
+
+.portrait img {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+}
+
+.infoContainer {
+	position: relative;
+	width: 90%;
+	mix-blend-mode: difference;
+	margin: 5em 5%;
+	text-align: center;
+}
+
+.info {
+	color: #fff;
+
+}
+
+.info h1 {
+	font-size: 3rem;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+}
+
+.info h3 {
+	font-size: 1.7rem;
+	font-weight: 300
+}
+
+.info p {
+	font-size: 1.4rem;
+	font-weight: 250;
+}
+
+.portraitCaption ul, .info ul {
+	list-style: none;
+	margin-left: -1rem;
+}
+
+.portraitCaption ul li, .info ul li {
+	margin: 1rem 1rem;
+	font-size: 1.4rem;
+	font-weight: 200;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.caption {
+	display: none;
+}
+
+.divider {
+	font-size: 3em;
+}
+
+@media only screen and (min-width: 600px) {
+	
+}
+
+@media only screen and (min-width: 1024px) {
+	.portraitContainer {
+		display: block;
+	}
+
+	.infoContainer {
+	width: 50%;
+	margin-left: 15%;
+	margin-top: -5%;
+	text-align: left;
+	}
+
+	.info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	}
+
+	.skills {
+	justify-content: start;
+	}
+
+	.caption {
+		display: block;
+	}
+
+	.divider {
+		display: none;
+	}
+}
+
